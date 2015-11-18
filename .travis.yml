@@ -15,7 +15,7 @@ install:
 
 script:
     - set -o pipefail
-    - if [[ "$TEST_CONFIG" == "RELEASE" ]]; then xcodebuild -project Configurist.xcodeproj -scheme Swiftz -sdk macosx ONLY_ACTIVE_ARCH=NO clean build test | xcpretty -c -f `xcpretty-travis-formatter`; fi
-    - if [[ "$TEST_CONFIG" == "RELEASE" ]]; then xcodebuild -project Configurist.xcodeproj -scheme Swiftz-iOS -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO clean build test | xcpretty -c -f `xcpretty-travis-formatter`; fi
+    - if [[ "$TEST_CONFIG" == "RELEASE" ]]; then xcodebuild -project Configurist.xcodeproj -scheme Configurist -sdk macosx ONLY_ACTIVE_ARCH=NO clean build test | xcpretty -c -f `xcpretty-travis-formatter`; fi
+    - if [[ "$TEST_CONFIG" == "RELEASE" ]]; then xcodebuild -project Configurist.xcodeproj -scheme Configurist-iOS -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO clean build test | xcpretty -c -f `xcpretty-travis-formatter`; fi
     - if [[ "$TEST_CONFIG" == "CARTHAGE" ]]; then carthage update --verbose --no-use-binaries && carthage build --no-skip-current --configuration Debug; fi
     - if [[ "$TEST_CONFIG" == "PODS" ]]; then pod lib lint; fi
