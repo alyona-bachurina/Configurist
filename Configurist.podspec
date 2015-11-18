@@ -10,7 +10,7 @@ Swift wrapper for loading configurations from JSON and PLIST files.
   s.homepage         = "https://github.com/alyona-bachurina/Configurist"
   s.license          = 'MIT'
   s.author           = { "Alyona" => "a.bachurina@gmail.com" }
-  s.source           = { :git => "https://github.com/alyona-bachurina/Configurist", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/alyona-bachurina/Configurist.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
