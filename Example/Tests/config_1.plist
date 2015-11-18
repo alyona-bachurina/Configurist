@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color.red.rgba</key>
+    <string>#FF0000FF</string>
+    
+    <key>color.red.rgb</key>
+    <string>#FF0000</string>
+    
+    <key>base.url</key>
+    <string>http://github.com</string>
+    
+    <key>magic.number</key>
+    <integer>100500</integer>
+    
+    <key>array</key>
+    <array>
+    <string>United States</string>
+    <string>Italy</string>
+    <string>Vietnam</string>
+    <string>Ukraine</string>
+    <string>Romania</string>
+    </array>
+    
+</dict>
+</plist>

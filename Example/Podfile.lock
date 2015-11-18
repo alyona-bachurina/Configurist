@@ -1,0 +1,14 @@
+PODS:
+  - Configurist (0.1.0)
+
+DEPENDENCIES:
+  - Configurist (from `../`)
+
+EXTERNAL SOURCES:
+  Configurist:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Configurist: 2f6a32e5ce01965ad5c881200670c51a8074072c
+
+COCOAPODS: 0.39.0
