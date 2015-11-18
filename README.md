@@ -1,6 +1,6 @@
 # Configurist
 
-[![CI Status](http://img.shields.io/travis/Alyona/Configurist.svg?style=flat)](https://travis-ci.org/Alyona/Configurist)
+[![Build Status](https://travis-ci.org/alyona-bachurina/Configurist.svg)](https://travis-ci.org/alyona-bachurina/Configurist)
 [![Version](https://img.shields.io/cocoapods/v/Configurist.svg?style=flat)](http://cocoapods.org/pods/Configurist)
 [![License](https://img.shields.io/cocoapods/l/Configurist.svg?style=flat)](http://cocoapods.org/pods/Configurist)
 [![Platform](https://img.shields.io/cocoapods/p/Configurist.svg?style=flat)](http://cocoapods.org/pods/Configurist)
