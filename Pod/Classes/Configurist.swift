@@ -14,11 +14,11 @@ import UIKit
 Intended to manage plist and json configuration files.
 */
 
-class Configurist: NSObject {
+public class Configurist: NSObject {
     
     private var configuration:[String:AnyObject] = [:]
     
-    init(names:[String], bundle: NSBundle = NSBundle(forClass: Configurist.self)) {
+    public init(names:[String], bundle: NSBundle = NSBundle(forClass: Configurist.self)) {
         super.init()
         for name in names {
 
@@ -59,27 +59,27 @@ class Configurist: NSObject {
         }
     }
     
-    func string(key:String) -> String{
+    public func string(key:String) -> String{
         assertReadingOfType(key, type: String.self)
         return configuration[key] as! String
     }
     
-    func array(key:String) -> [AnyObject]{
+    public func array(key:String) -> [AnyObject]{
         assertReadingOfType(key, type: [AnyObject].self)
         return configuration[key] as! [AnyObject]
     }
     
-    func number(key:String) -> NSNumber {
+    public func number(key:String) -> NSNumber {
         assertReadingOfType(key, type: NSNumber.self)
         return configuration[key] as! NSNumber
     }
     
-    func dictionary(key:String) -> [String:AnyObject] {
+    public func dictionary(key:String) -> [String:AnyObject] {
         assertReadingOfType(key, type: NSNumber.self)
         return configuration[key] as! [String:AnyObject]
     }
     
-    func colorRGBA(key:String) -> UIColor {       
+    public func colorRGBA(key:String) -> UIColor {
         let baseValue = parseHex(string(key))
         let red = (CGFloat)((baseValue >> 24) & 0xFF)/255.0
         let green = (CGFloat)((baseValue >> 16) & 0xFF)/255.0
@@ -89,7 +89,7 @@ class Configurist: NSObject {
         return color
     }
     
-    func colorRGB(key:String) -> UIColor {
+    public func colorRGB(key:String) -> UIColor {
         let baseValue = parseHex(string(key))
         let red = (CGFloat)((baseValue >> 16) & 0xFF)/255.0
         let green = (CGFloat)((baseValue >> 8) & 0xFF)/255.0
