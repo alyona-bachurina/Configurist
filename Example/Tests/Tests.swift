@@ -35,7 +35,7 @@ class Tests: XCTestCase {
         XCTAssertEqual(c.array("array").count, 5)
         XCTAssertEqual( (c.array("array")[1] as! String) , "Italy")
         
-        XCTAssertNotNil(c.dictionary("account") as? Dictionary)
+        XCTAssertNotNil(c.dictionary("account"))
         XCTAssertNotNil(c.dictionary("account")["_id"] as? String)
         
         XCTAssertEqual(c.string("one.more.string"), "Some another string")
