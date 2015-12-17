@@ -1,0 +1,17 @@
+{
+    "account":
+    {
+        "_id": "566eea5d653a250a000cc598",
+        "email": "inque@example.com",
+        "isActive": true,
+        "birthday": 450907200,
+        "firstName": "Alyona",
+        "nickName": "Inque",
+        "devices": [{
+                    "name": "Alyona’s iPhone",
+                    "token": "e8eeaf07baabf16106cceb3241b01a471ad9286788f27c30d45f59ac62c89e9d",
+                    "type": "ios",
+                    "_id": "56707da3653a250a003456a7"
+                    }]
+    }
+}

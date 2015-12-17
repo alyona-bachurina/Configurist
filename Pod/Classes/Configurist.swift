@@ -75,7 +75,7 @@ public class Configurist: NSObject {
     }
     
     public func dictionary(key:String) -> [String:AnyObject] {
-        assertReadingOfType(key, type: NSNumber.self)
+        assertReadingOfType(key, type: [String:AnyObject].self)
         return configuration[key] as! [String:AnyObject]
     }
     

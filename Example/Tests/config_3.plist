@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>account</key>
+	<dict>
+		<key>_id</key>
+		<string>566eea5d653a250a000cc598</string>
+		<key>email</key>
+		<string>inque@example.com</string>
+		<key>isActive</key>
+		<true/>
+		<key>birthday</key>
+		<integer>450907200</integer>
+		<key>firstName</key>
+		<string>Alyona</string>
+		<key>nickName</key>
+		<string>Inque</string>
+		<key>devices</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Alyona’s iPhone</string>
+				<key>token</key>
+				<string>e8eeaf07baabf16106cceb3241b01a471ad9286788f27c30d45f59ac62c89e9d</string>
+				<key>type</key>
+				<string>ios</string>
+				<key>_id</key>
+				<string>56707da3653a250a003456a7</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

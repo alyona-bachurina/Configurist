@@ -11,6 +11,8 @@
 		09AABE101BFA2BB90091E785 /* config_1a.json in Resources */ = {isa = PBXBuildFile; fileRef = 09AABE0C1BFA2BB90091E785 /* config_1a.json */; };
 		09AABE111BFA2BB90091E785 /* config_2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09AABE0D1BFA2BB90091E785 /* config_2.plist */; };
 		09AABE121BFA2BB90091E785 /* config_2a.json in Resources */ = {isa = PBXBuildFile; fileRef = 09AABE0E1BFA2BB90091E785 /* config_2a.json */; };
+		09AD47561C2367490028668F /* config_3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09AD47551C2367490028668F /* config_3.plist */; };
+		09AD47581C2367660028668F /* config_3a.json in Resources */ = {isa = PBXBuildFile; fileRef = 09AD47571C2367660028668F /* config_3a.json */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6A94FCFA3097887EE3CB3545 /* Pods_Configurist_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCBBB39964CDBD7F310C185 /* Pods_Configurist_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -20,6 +22,8 @@
 		09AABE0C1BFA2BB90091E785 /* config_1a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_1a.json; sourceTree = "<group>"; };
 		09AABE0D1BFA2BB90091E785 /* config_2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config_2.plist; sourceTree = "<group>"; };
 		09AABE0E1BFA2BB90091E785 /* config_2a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_2a.json; sourceTree = "<group>"; };
+		09AD47551C2367490028668F /* config_3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = config_3.plist; sourceTree = "<group>"; };
+		09AD47571C2367660028668F /* config_3a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_3a.json; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Configurist_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Configurist_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				09AABE0C1BFA2BB90091E785 /* config_1a.json */,
 				09AABE0D1BFA2BB90091E785 /* config_2.plist */,
 				09AABE0E1BFA2BB90091E785 /* config_2a.json */,
+				09AD47551C2367490028668F /* config_3.plist */,
+				09AD47571C2367660028668F /* config_3a.json */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -172,10 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AD47561C2367490028668F /* config_3.plist in Resources */,
 				09AABE111BFA2BB90091E785 /* config_2.plist in Resources */,
 				09AABE0F1BFA2BB90091E785 /* config_1.plist in Resources */,
 				09AABE121BFA2BB90091E785 /* config_2a.json in Resources */,
 				09AABE101BFA2BB90091E785 /* config_1a.json in Resources */,
+				09AD47581C2367660028668F /* config_3a.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
