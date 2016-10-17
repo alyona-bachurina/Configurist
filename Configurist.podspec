@@ -14,7 +14,7 @@ Swift wrapper for loading configurations from JSON and PLIST files.
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.pod_target_xcconfig = { 'ENABLE_TESTABILITY' => 'YES' }
+  s.pod_target_xcconfig = { 'ENABLE_TESTABILITY' => 'YES', 'SWIFT_VERSION' => '3.0' }
 
   s.source_files = 'Pod/Classes/**/*'
 
