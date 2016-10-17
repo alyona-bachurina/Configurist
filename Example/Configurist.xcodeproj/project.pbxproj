@@ -151,7 +151,8 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+						DevelopmentTeam = F2G84M9YLS;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -335,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9266BBC4A3DC31AA87C0F2E7 /* Pods-Configurist_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = F2G84M9YLS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -347,7 +349,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Configurist_Example.app/Configurist_Example";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -355,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6209FEAB6DD1BD9377747318 /* Pods-Configurist_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = F2G84M9YLS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -363,7 +366,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Configurist_Example.app/Configurist_Example";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
