@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Configurist"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Loading configs in swift."
   s.description      = <<-DESC
 Swift wrapper for loading configurations from JSON and PLIST files.
